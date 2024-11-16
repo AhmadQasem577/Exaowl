@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExaOwl home</title>
+    <title>ExaOwl login</title>
     <link rel="stylesheet" href="../Style/masterStyle/StructureStyle.css">
     <link rel="stylesheet" href="../Style/pagesStyle/login.css">
 </head>
+
 <body>
-    
+    <div class="main-container">
+        <div class="login-container">
+
+            <img class="logo" src="../media/images/logo.svg" alt="ExaOwl logo">
+
+            <div class="greeting-container">
+                <h1>Welcome to EXAOWL</h1>
+            </div>
+
+            <div class="input-container">
+                <h2>Login</h2>
+                <input type="text"  name="username" required>
+            </div>
+
+            <div class="input-container">
+                <h2>Password</h2>
+                <input type="password"  name="password" required>
+            </div>
+
+            <div class="login-settings-container">
+                <div class="remember-container">
+                    <input type="checkbox" name="rememberMe">
+                    <label for="rememberMe">Remember Me</label>
+                </div>
+
+                <div class="forgot-password-container">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+
+
+            <button class="login-button">sign in</button>
+
+
+        </div>
+        <div class="information-container">
+            <img class="information-container-background" src="../media/images/info_background.png" alt="">
+
+            <div class="information">
+                <h2>New to ExaOwl?</h2>
+                <p>Create a free account and find your likly software</p>
+                <a href="#">Create Account</a>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
