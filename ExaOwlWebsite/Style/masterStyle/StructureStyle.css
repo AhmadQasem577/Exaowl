@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Commissioner:wght@100..900&display=swap');
+
 html
 {
     height: 100%;
     width: 100%;
+    font-family: 'Anek Bangla';
 }
 body
 {
     height: 100%;
-    width: 100%;
+    
 }
